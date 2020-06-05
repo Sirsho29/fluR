@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fluR</string>
+    <string name="facebook_app_id">693913744509516</string>
+    <string name="fb_login_protocol_scheme">fb693913744509516</string>
+</resources>

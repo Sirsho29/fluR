@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "536603649167",
+    "firebase_url": "https://fluchat-cf0a6.firebaseio.com",
+    "project_id": "fluchat-cf0a6",
+    "storage_bucket": "fluchat-cf0a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536603649167:android:82c8075fcf102e1903bcfa",
+        "android_client_info": {
+          "package_name": "com.example.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536603649167-46amijmpbsb79a1cj36ta499npij6977.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQjNtkNj8bXBgGLvVPcNKW45Gvo7GwNas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536603649167-46amijmpbsb79a1cj36ta499npij6977.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
