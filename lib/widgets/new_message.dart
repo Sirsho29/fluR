@@ -20,7 +20,7 @@ class _NewMessageState extends State<NewMessage> {
 
   var _enteredMessage = '';
 
-  void _sendMessage() async{
+  void _sendMessage() async {
     FocusScope.of(context).unfocus();
     await Firestore.instance
         .collection(
@@ -32,10 +32,9 @@ class _NewMessageState extends State<NewMessage> {
     });
 
     await Firestore.instance
-        .collection(
-            'USER/${widget.userUID.trim()}/Friends').document(widget.friendUID.trim()).updateData({
-              'isChatting' : true
-            }); 
+        .collection('USER/${widget.userUID.trim()}/Friends')
+        .document(widget.friendUID.trim())
+        .updateData({'isChatting': true});
 
     await Firestore.instance
         .collection(
